@@ -17,7 +17,6 @@ const isDiv = (number) => {
   for (let i = 2; i < number; i++) {
     if (number % i === 0) {
       return true;
-      break;
     }
   }
   return false;
